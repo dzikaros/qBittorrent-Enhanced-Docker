@@ -33,7 +33,7 @@ jobs:
         with:
           file: ./Dockerfile
           platforms: linux/amd64
-          push: true
+          push: false
           tags: dzlx/qbittorrent-enhanced:4.2.5.10_amd64
   aarch64:
     runs-on: ubuntu-latest
@@ -64,7 +64,7 @@ jobs:
         with:
           file: ./Dockerfile.aarch64
           platforms: linux/arm64
-          push: true
+          push: false
           tags: dzlx/qbittorrent-enhanced:4.2.5.10_aarch64
   armv7:
     runs-on: ubuntu-latest
@@ -95,7 +95,7 @@ jobs:
         with:
           file: ./Dockerfile.armv7
           platforms: linux/arm/v7
-          push: true
+          push: false
           tags: dzlx/qbittorrent-enhanced:4.2.5.10_armv7
   all:
     needs: [amd64, aarch64, armv7]
