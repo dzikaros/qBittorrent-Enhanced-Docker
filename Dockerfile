@@ -1,4 +1,4 @@
-FROM alpine:3.10 as compilingqB
+FROM alpine:3.13 as compilingqB
 
 #compiling qB
 
@@ -28,7 +28,7 @@ RUN  apk add --no-cache ca-certificates make g++ gcc qt5-qtsvg-dev boost-dev qt5
 &&   cp --parents /usr/local/bin/qbittorrent-nox /qbittorrent
 
  # docker qB
-FROM alpine:3.10
+FROM alpine:3.13
 
 ARG  S6_VER=2.2.0.3
 
