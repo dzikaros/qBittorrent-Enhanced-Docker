@@ -33,7 +33,7 @@ FROM alpine:3.13
 ARG  S6_VER=2.2.0.3
 
 ENV TRACKERSAUTO=true
-ENV TRACKERS_LIST_URL=https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/best.txt
+ENV TRACKERS_LIST_URL=https://jsd.cdn.zzko.cn/gh/XIU2/TrackersListCollection/best.txt
 ENV TZ=Asia/Shanghai
 ENV WEBUIPORT=8989
 ENV PUID=1000
