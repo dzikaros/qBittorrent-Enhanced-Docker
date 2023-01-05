@@ -52,5 +52,5 @@ docker run -d \
 | `-e TZ=Asia/Shanghai` |系统时区设置,默认为Asia/Shanghai|
 | `-e WEBUIPORT=8989` |web访问端口环境变量|
 | `-e TRACKERSAUTO=true` |(true\|false)自动更新qBittorrent的trackers,默认开启|
-| `-e TRACKERS_LIST_URL=` |trackers更新地址设置,仅支持ngosang格式,默认为 </br>https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/best.txt |
+| `-e TRACKERS_LIST_URL=` |trackers更新地址设置,仅支持ngosang格式,默认为 </br>https://jsd.cdn.zzko.cn/gh/XIU2/TrackersListCollection/best.txt |
 
